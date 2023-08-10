@@ -7,6 +7,7 @@ class SiteController {
   //[GET] /search
   search(req, res) {
     res.send("Search anything");
+    console.log(res.body);
   }
 }
 module.exports = new SiteController();
